@@ -20,6 +20,32 @@ public class Test {
 		System.out.println(taro.name);
 		System.out.println(taro.age);
 		
+		
+		//演習②
+		Person jiro = new Person();
+		
+		jiro.name = "木村次郎";
+		jiro.age = 18;
+		
+		System.out.println(jiro.name);
+		System.out.println(jiro.age);
+		
+		
+		Person hanako = new Person();
+		
+		hanako.name = "鈴木花子";
+		hanako.age = 16;
+		
+		System.out.println(hanako.name);
+		System.out.println(hanako.age);
+		
+		Person eigo = new Person();
+		
+		eigo.name = "椿本永河";
+		eigo.age = 24;
+		
+		System.out.println(eigo.name);
+		System.out.println(eigo.age);
 	}
 
 }

@@ -6,5 +6,7 @@ public class Person {
 	//このあと、この中にTestクラスからnameとageを持ってくる
 	public String name = null;
 	public int age = 0;
+	
+	
 
 }
