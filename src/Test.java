@@ -46,6 +46,42 @@ public class Test {
 		
 		System.out.println(eigo.name);
 		System.out.println(eigo.age);
+		
+		
+		taro.phoneNumber ="0010-200-0050";
+		System.out.println(taro.phoneNumber);
+		
+		taro.address = "ooooooo@yahooo.jp";
+		System.out.println(taro.address);
+		
+		taro.talk();
+		taro.walk();
+		taro.run();
+		
+		
+		Robot aibo = new Robot();
+		
+		aibo.name = "アイボ";
+				
+		aibo.talk();
+		aibo.walk();
+		aibo.run();
+		
+		Robot asimo = new Robot();
+		
+		asimo.name = "アシモ";
+		
+		asimo.talk();
+		asimo.walk();
+		asimo.run();
+		
+		Robot pepper = new Robot();
+		
+		pepper.name = "ペッパー";
+		
+		pepper.talk();
+		pepper.walk();
+		pepper.run();
 	}
 
 }
